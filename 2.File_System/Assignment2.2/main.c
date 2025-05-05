@@ -6,7 +6,7 @@
 
 void main(int argc, char *argv[]) {
     if (argc != 5) {
-        fprintf(stderr, "Usage: %s filename num-bytes [r/w] \"content\"\n", argv[0]);
+        fprintf(stderr, "cách dùng: %s filename num-bytes [r/w] \"content\"\n", argv[0]);
         return ;
     }
 

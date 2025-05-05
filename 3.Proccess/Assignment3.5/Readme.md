@@ -13,7 +13,7 @@ Giải thích trạng thái zombie và orphan, cùng lý do tại sao chúng xu�
     trình con vẫn đang hoạt động và được linux trao quyền quản lý cho tiến trình sell/terminal để người dùng vẫn có thể quản lý được nó.
 
     ### Trạng thái Orphan
-    ![Orphan Process](https://github.com/VPlabc/VinhPhat-Linux-Assignments/blob/main/image/orphan_process.png)
+    <img src="https://github.com/VPlabc/VinhPhat-Linux-Assignments/blob/main/image/orphan_process.png" width="300" alt="Orphan Process" />
 
 => trường hợp Zombie:
     sau khi chạy 5 giây thì tiến trình con kết thúc và rơi vào trạng thái zombie do chưa được giải phóng hết tài nguyên. 
@@ -22,7 +22,7 @@ Giải thích trạng thái zombie và orphan, cùng lý do tại sao chúng xu�
     nó cần có tiến trình nào đó quản lý hoặc signal để kết thúc khi cần. điều này giúp hạn chế lãng phí tài nguyên.
 
     ### Trạng thái Zombie
-    ![Zombie Process](https://github.com/VPlabc/VinhPhat-Linux-Assignments/blob/main/image/zombie_process.png)
+    <img src="https://github.com/VPlabc/VinhPhat-Linux-Assignments/blob/main/image/zombie_process.png" width="300" alt="Zombie Process" />
 
 ## Commands
 

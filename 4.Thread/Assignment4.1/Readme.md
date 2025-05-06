@@ -22,7 +22,7 @@ lần make và chạy thứ hai với trường hợp có pthread_join, chương
 make
 ```
  
-### run file thực thi ví dụ chạy và in ra PID của tiến trình cha và tiến trình con
+### run file thực thi
 ```bash
 ./test
 ```

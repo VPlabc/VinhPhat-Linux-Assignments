@@ -11,18 +11,14 @@ Giải thích trạng thái zombie và orphan, cùng lý do tại sao chúng xu�
     sau khi chạy tiến trình cha kết thúc sau 10s tiến trình con vẫn chạy và rơi vào trạng thái orphan và được sự quản lý của sell/terminal
     trường hợp này tiến cha gặp vấn đề hoặc lý do nào đó cần kết thúc nhưng không làm ảnh hưởng đến tiến trình con.
     trình con vẫn đang hoạt động và được linux trao quyền quản lý cho tiến trình sell/terminal để người dùng vẫn có thể quản lý được nó.
-
-    ### Trạng thái Orphan
-    ![Orphan Process](..../image/orphan_process.png)
+![orphan_process](https://github.com/user-attachments/assets/3a11328b-fcd4-4fb0-9007-0c76ca2192ba)
 
 => trường hợp Zombie:
     sau khi chạy 5 giây thì tiến trình con kết thúc và rơi vào trạng thái zombie do chưa được giải phóng hết tài nguyên. 
     nó phụ thuộc vào tiến trình cha và chỉ được giải phóng khi tiến trình cha kết thúc 
     trường hợp này xảy ra khi các tiến trình gặp lỗi hoặc lý do nào đó buộc nó phải kết thúc khiến nó rơi vào trạng thái ngừng hoạt động mà không thể giải phóng được tài nguyên.
     nó cần có tiến trình nào đó quản lý hoặc signal để kết thúc khi cần. điều này giúp hạn chế lãng phí tài nguyên.
-
-    ### Trạng thái Zombie
-    ![Zombie Process](..../image/zombie_process.png)
+![zombie_process](https://github.com/user-attachments/assets/203c5586-17ab-4096-9176-61baa17eab95)
 
 ## Commands
 

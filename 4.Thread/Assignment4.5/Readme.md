@@ -13,6 +13,9 @@ Gợi ý: Sử dụng pthread_rwlock_rdlock và pthread_rwlock_wrlock cho đọc
 
 kết quả như hình bên dưới
 
+![Thread with share memorry](https://github.com/user-attachments/assets/e9d229ea-f08e-4995-9d22-1149c5c87b3d)
+
+
 ## Mô tả mã nguồn
 ## Commands
 

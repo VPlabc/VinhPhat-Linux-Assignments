@@ -12,6 +12,8 @@ như hình bên dưới.
 lần make và chạy đầu tiên với trường hợp không có pthread_join, chương trình chính kết thúc trước khi thread hoàn thành, dẫn đến việc không in ra thông báo của thread. 
 lần make và chạy thứ hai với trường hợp có pthread_join, chương trình chính đợi cho đến khi thread hoàn thành trước khi kết thúc. kết quả là thông báo của thread được in ra đầy đủ.
 
+![Thread with pthread_join](https://github.com/user-attachments/assets/15f537f4-48ff-4611-9580-65017781c2d3)
+
 ## Mô tả mã nguồn
 ## Commands
 

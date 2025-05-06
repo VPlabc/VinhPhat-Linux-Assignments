@@ -1,19 +1,18 @@
 # README
 
-BT2. Đồng Bộ Hóa Threads với Mutex
-Viết một chương trình sử dụng pthread và mutex để thực hiện các thao tác sau:
-Tạo một biến toàn cục counter khởi tạo bằng 0.
-Tạo ba threads, mỗi thread tăng giá trị của counter lên 1, 1.000.000 lần.
-Sử dụng mutex để đảm bảo rằng việc tăng counter được thực hiện an toàn.
-In ra giá trị cuối cùng của counter khi tất cả các threads hoàn thành.
-Hỏi: Tại sao cần mutex trong bài này? Điều gì xảy ra nếu bỏ mutex?
-Gợi ý: Sử dụng pthread_mutex_lock và pthread_mutex_unlock để khóa và mở khóa mutex khi truy cập vào counter.
+## Bài tập 4.3: Producer-Consumer Problem
+Viết một chương trình có hai threads: producer và consumer như sau:
+Producer: Tạo ra một số ngẫu nhiên từ 1 đến 10 và lưu vào một biến toàn cục data.
+Consumer: Đợi producer cung cấp dữ liệu, sau đó đọc và in ra dữ liệu đó.
+Sử dụng pthread_cond_wait và pthread_cond_signal để đồng bộ hóa giữa producer và consumer, đảm bảo rằng consumer chỉ đọc dữ liệu khi producer đã cung cấp xong.
+Lặp lại quá trình trên 10 lần và in ra tất cả các giá trị do consumer đọc được.
+Gợi ý: Sử dụng pthread_cond_wait để cho consumer đợi cho đến khi có tín hiệu từ producer rằng dữ liệu đã sẵn sàng.
+Sử dụng pthread_cond_signal để thông báo cho consumer rằng dữ liệu đã sẵn sàng để đọc. Sử dụng mutex để bảo vệ biến toàn cục data khỏi truy cập đồng thời từ cả hai threads.
 
-=> Mutex được sử dụng để đảm bảo rằng chỉ một thread có thể truy cập vào biến counter tại một thời điểm nhất định. Nếu không sử dụng mutex, nhiều thread có thể cố gắng tăng giá trị của counter cùng một lúc, dẫn đến tình trạng bất đồng bộ và giá trị cuối cùng của counter có thể không chính xác. 
-Điều này xảy ra vì các thao tác tăng giá trị của counter có thể bị ngắt giữa chừng bởi các thread khác, dẫn đến việc ghi đè lên nhau và mất dữ liệu. kết quả cuối cùng của counter có thể nhỏ hơn 3.000.000 (1.000.000 * 3) nếu không sử dụng mutex.
-kết quả như hình cho 2 lần chạy.
-lần đầu make và chạy mà không có mutex. kết quả không đúng với target đưa ra.
-lần thứ 2 là chạy với mutex. kết quả đúng với target đưa ra.
+=> Chương trình này sử dụng mutex và condition variable để đồng bộ hóa giữa hai thread producer và consumer. Producer tạo ra một số ngẫu nhiên từ 1 đến 10 và lưu vào biến toàn cục data, sau đó thông báo cho consumer rằng dữ liệu đã sẵn sàng. Consumer đợi cho đến khi có tín hiệu từ producer và sau đó đọc và in ra dữ liệu đó. Quá trình này lặp lại 10 lần.
+kết quả như hình bên dưới
+
+![Thread with condition var](https://github.com/user-attachments/assets/bb921121-bac2-4f01-89f7-5155de476e09)
 
 ## Mô tả mã nguồn
 ## Commands

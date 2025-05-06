@@ -1,6 +1,6 @@
 # README
 
-BT4. Đếm Số Chẵn và Số Lẻ với Threads
+## Bài tập 4.4: Đếm số chẵn và số lẻ trong mảng
 Viết một chương trình để thực hiện các bước sau:
 Tạo một mảng ngẫu nhiên chứa 100 số nguyên từ 1 đến 100.
 Tạo hai threads: một thread đếm số chẵn và một thread đếm số lẻ trong mảng.
@@ -10,6 +10,8 @@ Gợi ý: Mỗi thread sẽ xử lý một phần công việc khác nhau, vì v
 
 => Chương trình này không ghi vào biến chung chi đọc nên không cần mutex. chương trình sẽ in ra tổng số số chẵn và tổng số số lẻ.
 kết quả như hình bên dưới
+
+![Thread without mutex](https://github.com/user-attachments/assets/a30eec07-5eb0-4392-9ba3-84d5ebe7a9f2)
 
 ## Mô tả mã nguồn
 ## Commands

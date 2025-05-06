@@ -10,6 +10,8 @@ Gợi ý: Sử dụng pthread_mutex_lock để bảo vệ biến tổng khi các
 
 kết quả như hình bên dưới
 
+![Thread 4 6](https://github.com/user-attachments/assets/96a91cff-10d8-4264-bb23-a08a7247ab56)
+
 ## Mô tả mã nguồn
 ## Commands
 

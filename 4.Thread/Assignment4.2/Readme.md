@@ -15,6 +15,8 @@ kết quả như hình cho 2 lần chạy.
 lần đầu make và chạy mà không có mutex. kết quả không đúng với target đưa ra.
 lần thứ 2 là chạy với mutex. kết quả đúng với target đưa ra.
 
+![Thread with pthread_mutex](https://github.com/user-attachments/assets/9e5ecd4a-71fb-452f-9ce6-91f0ce0d7930)
+
 ## Mô tả mã nguồn
 ## Commands
 

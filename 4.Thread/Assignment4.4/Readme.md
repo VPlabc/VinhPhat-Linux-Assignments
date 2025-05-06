@@ -1,6 +1,6 @@
 # README
 
-# Bài tập 4.4: Đếm số chẵn và số lẻ trong mảng
+## Bài tập 4.4: Đếm số chẵn và số lẻ trong mảng
 Viết một chương trình để thực hiện các bước sau:
 Tạo một mảng ngẫu nhiên chứa 100 số nguyên từ 1 đến 100.
 Tạo hai threads: một thread đếm số chẵn và một thread đếm số lẻ trong mảng.

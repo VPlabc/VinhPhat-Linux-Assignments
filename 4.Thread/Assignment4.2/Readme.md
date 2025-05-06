@@ -25,7 +25,7 @@ lần thứ 2 là chạy với mutex. kết quả đúng với target đưa ra.
 make
 ```
  
-### run file thực thi ví dụ chạy và in ra PID của tiến trình cha và tiến trình con
+### run file thực thi 
 ```bash
 ./test
 ```

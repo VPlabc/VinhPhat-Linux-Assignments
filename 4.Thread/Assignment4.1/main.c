@@ -29,6 +29,6 @@ int main() {
         pthread_join(threads[t], NULL);
     }
 
-    printf("All threads completed. Exiting program.\n");
+    printf("Main: All threads completed. Exiting program.\n");
     return 0;
 }

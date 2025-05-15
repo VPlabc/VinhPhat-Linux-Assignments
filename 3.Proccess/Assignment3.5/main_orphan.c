@@ -16,10 +16,7 @@ int main() {
         exit(1);
     } else if (pid == 0) {
         // Child process
-        printf("Child process (PID: %d) started.\n", getpid());
-        //vòng while để cho thấy tiến trình con vẫn chạy
-        // while(1);
-        
+        printf("Child process (PID: %d) started.\n", getpid());  
         // thời gian chờ để mô tả tiên trình orphan
         sleep(2);
 

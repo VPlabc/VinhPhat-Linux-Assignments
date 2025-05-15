@@ -24,7 +24,7 @@ kết quả như hình bên dưới
 make
 ```
  
-### run file thực thi ví dụ chạy và in ra PID của tiến trình cha và tiến trình con
+### run file thực thi 
 ```bash
 ./test
 ```

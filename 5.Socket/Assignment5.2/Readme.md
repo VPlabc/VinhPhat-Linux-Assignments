@@ -7,6 +7,8 @@ Viết chương trình dùng socket Ipv4 Datagram Socket để gửi nhận mộ
 bên Server sẽ lắng nghe kết nối từ client, sau khi kết nối thành công thì server sẽ gửi một chuỗi dữ liệu cho client. 
 bên Client sau khi kết nối thành công sẽ gửi chuỗi dữ liệu đến server. khi nhận được chuỗi dữ liệu từ server thì in ra.
 
+![Socket 5 2](https://github.com/user-attachments/assets/3edeafae-3dee-4b3c-9840-2a3b7b9406cb)
+
 ## Mô tả mã nguồn
 ## Commands
 

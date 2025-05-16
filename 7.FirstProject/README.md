@@ -22,6 +22,7 @@ The application supports multiple connections and allows users to send messages 
 
 ### Photos of the project
 run full command
+
 ![Screenshot 2025-05-16 114029](https://github.com/user-attachments/assets/fef09412-592c-46bd-a52e-7cdec1d27324)
 ![Screenshot 2025-05-16 120614](https://github.com/user-attachments/assets/d7273f75-0229-4697-9637-1d9c16ca072f)
 

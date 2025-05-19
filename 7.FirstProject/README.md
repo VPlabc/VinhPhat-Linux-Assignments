@@ -20,6 +20,22 @@
 This project is a simple chat application that allows users to connect to each other and send messages. It uses sockets for communication and is designed to be run on a local network.
 The application supports multiple connections and allows users to send messages to each other. It also includes a command-line interface for easy interaction.
 
+### program structure
+
+````bash
+.
+├── app
+├── inc
+│   ├── CLI.h
+│   └── main.h
+├── Makefile
+├── obj
+│   └── main.o
+├── README.md
+└── src
+    ├── CLI.cpp
+    └── main.c
+````
 ### Photos of the project
 run full command
 

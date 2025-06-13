@@ -64,5 +64,5 @@ Ghi giá trị `001` vào các bit 23-21 của thanh ghi GPFSEL2.
      - Ghi `1` vào bit 27 của GPSET0 để lên mức cao.
      - Ghi `1` vào bit 27 của GPCLR0 để xuống mức thấp.
 
-> Lưu ý: Địa chỉ thanh ghi có thể khác nhau tùy vào mapping vật lý hoặc hệ điều hành sử dụng.
+> Lưu ý: Địa chỉ thanh ghi trong tài liệu (BCM2708 manual reference) của Rsp Pi Zero W. đối với các board khác nhau sẽ có tài liệu khác.
 
